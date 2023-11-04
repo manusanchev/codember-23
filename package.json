@@ -1,0 +1,19 @@
+{
+  "name": "codember",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "solution1": "node challenge01/solution01.js",
+    "bench": "pnpm test bench"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "vitest": "^0.34.6"
+  }
+}
