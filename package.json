@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest",
+    "test": "vitest --watch=false",
     "solution1": "node challenge01/solution01.js",
     "bench": "pnpm test bench"
   },
