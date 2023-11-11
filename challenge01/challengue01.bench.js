@@ -6,7 +6,7 @@ import {
 } from "./challenge01.js";
 
 bench(
-  "first solution benchmark",
+  "first solution benchmark challenge01",
   () => {
     const message = "gato perro perro coche Gato peRRo sol";
     searchPatternSolution1(message);
@@ -15,7 +15,7 @@ bench(
 );
 
 bench(
-  "second  solution benchmark",
+  "second  solution benchmark challenge01",
   () => {
     const message = "gato perro perro coche Gato peRRo sol";
     searchPatternSolution2(message);
@@ -24,7 +24,7 @@ bench(
 );
 
 bench(
-  "third solution benchmark",
+  "third solution benchmark challenge01",
   () => {
     const message = "gato perro perro coche Gato peRRo sol";
     searchPatternSolution3(message);

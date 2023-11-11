@@ -1,16 +1,18 @@
 import { describe, it, expect } from "vitest";
-import { miniCompiler } from "./challenge02.js";
+import { miniCompilerSolution2, miniCompilerSolution1 } from "./challenge02.js";
 
-describe("Challenge02", () => {
+describe.concurrent("Challenge02", () => {
   it("case 1", () => {
     const input = "##*&";
     const output = "4";
-    expect(miniCompiler(input)).toBe(output);
+    expect(miniCompilerSolution2(input)).toBe(output);
+    expect(miniCompilerSolution1(input)).toBe(output);
   });
 
   it("case 2", () => {
     const input = "&##&*&@&";
     const output = "0243";
-    expect(miniCompiler(input)).toBe(output);
+    expect(miniCompilerSolution2(input)).toBe(output);
+    expect(miniCompilerSolution1(input)).toBe(output);
   });
 });

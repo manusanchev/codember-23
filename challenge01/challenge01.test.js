@@ -5,7 +5,7 @@ import {
 } from "./challenge01.js";
 import { describe, it, expect } from "vitest";
 
-describe("Challenge01", () => {
+describe.concurrent("Challenge01", () => {
   it("Example 1", () => {
     const message = "gato perro perro coche Gato peRRo sol";
     const solution = "gato2perro3coche1sol1";
