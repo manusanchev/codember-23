@@ -7,6 +7,7 @@
   "scripts": {
     "test": "vitest --watch=false",
     "solution1": "node challenge01/solution01.js",
+    "solution2": "node challenge02/solution02.js",
     "bench": "pnpm test bench"
   },
   "keywords": [],
