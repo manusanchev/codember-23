@@ -1,5 +1,5 @@
 # Codember challenges '23
-Test and benchmark with vitest. All my solutions are code with Javascript
+Test and benchmark with vitest. All my solutions are coded with Javascript
 
 ## Benchmark challenge 1
 
