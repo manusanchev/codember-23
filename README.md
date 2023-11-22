@@ -1,5 +1,5 @@
-# codember-23
-All my submissions for codember '23 competition
+# Codember challenges '23
+Test and benchmark with vitest. All my solutions are coded with Javascript
 
 ## Benchmark challenge 1
 
