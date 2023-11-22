@@ -8,6 +8,7 @@
     "test": "vitest --watch=false",
     "solution1": "node challenge01/solution01.js",
     "solution2": "node challenge02/solution02.js",
+    "solution3": "node challenge03/solution03.js",
     "bench": "pnpm test bench"
   },
   "keywords": [],
